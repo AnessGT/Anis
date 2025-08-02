@@ -10,7 +10,7 @@
   --bg-color: #080808;
   --second-bg-color: #101010;
   --text-color: white;
-  --main-color: #ea580c;
+  --main-color: white;
 }
 html {
   font-size: 60%;
@@ -269,6 +269,7 @@ section{
     grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
     align-items: center;
     gap: 2.5rem;
+    padding: 15px;
 }
 
 .service-box{
@@ -277,9 +278,9 @@ section{
     align-items: center;
     background-color: var(--main-color);
     height: 600px;
-    border-radius: 3rem;
+    border-radius: 15rem;
     cursor: pointer;
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     transition: 0.4s ease-in-out;
 }
 
@@ -430,6 +431,7 @@ section{
 @media(max-width:1285px){
     #menu-icons{
         display: block;
+        font-size: 5rem;
     }
     .navbar{
         position: absolute;
